@@ -1,0 +1,17 @@
+<div class="social">
+  {{ if isset .Params "en" }}
+  {{ if .Site.Params.sharing.hn }}
+  <a href="https://news.ycombinator.com/submit" class="hn-button">Vote on Hacker News</a>
+  {{ end }}
+  {{ else }}
+  {{ if .Site.Params.sharing.twitter }}
+    <a href="https://twitter.com/share" class="twitter-share-button" data-via="b4b4r07" data-count="horizontal">Tweet</a>
+  {{ end }}
+  {{ if .Site.Params.sharing.hatebu }}
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  {{ end }}
+  {{ if .Site.Params.sharing.pocket }}
+    <a data-pocket-label="pocket" data-pocket-count="horizontal" class="pocket-btn" data-lang="en"></a><script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+  {{ end }}
+  {{ end }}
+</div>

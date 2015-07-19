@@ -1,0 +1,19 @@
+name = "tokyo-style"
+license = "MIT"
+licenselink = ""
+description = "An elegant open source and mobile first theme"
+homepage = "https://github.com/b4b4r07/tokyo-style"
+tags = ["blog", "disqus"]
+features = ["blog", "disqus"]
+min_version = 0.1
+
+[author]
+    name = "b4b4r07"
+    homepage = "http://b4b4r07.com"
+
+# If porting an existing theme
+[original]
+    # It was heavily inspired by
+    author = "tanksuzuki"
+    homepage = "http://tanksuzuki.com/"
+    repo = "https://github.com/tanksuzuki/angels-ladder"

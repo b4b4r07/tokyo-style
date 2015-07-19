@@ -1,0 +1,23 @@
+baseurl = "http://tellme.tokyo"
+languageCode = "ja-jp"
+title = "TELLME.TOKYO"
+disqusShortname = "tellmetokyo"
+
+[Params]
+    subtitle = ""
+    #facebook = ""
+    twitter = "https://twitter.com/b4b4r07"
+    github = "https://github.com/b4b4r07"
+    website = "http://b4b4r07.com"
+    profile = "/images/logo.jpg"
+    copyright = "Written by b4b4r07"
+    analytics = "UA-XXXXXXXX-X"
+    google_font = "Lato:900"
+
+    [Params.sharing]
+        twitter = true
+        hatebu  = true
+        pocket  = false
+
+[permalinks]
+    post = "/post/:year/:month/:day/:filename/"
